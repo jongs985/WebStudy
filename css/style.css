@@ -20,8 +20,11 @@ div {
 div.contents{
     background-color: gold;
 }
-div#ootd{
-    background-color: rgb(255, 57, 57);
+div#ootd {
+    background-color: cyan;
+}
+div#ootd dt {
+    color:red;
     text-decoration: underline;
 }
 p {
