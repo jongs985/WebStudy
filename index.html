@@ -11,7 +11,7 @@
     <h1>웹화면 구현 수업의 웹스터디 페이지</h1>
     <h2>박종승</h2>
     <p>하나의 문단을 작성할 때는 <em>p 태그</em>를 사용합니다.</p>
-    <p><a href="https://webstudy-jongs.netlify.app/">netlify이동하기</a><br>
+    <p><h1><a href="https://webstudy-jongs.netlify.app/">netlify이동하기</a></h1><br>
         <strong>코딩 공부</strong>하기 좋은 날입니다. <br><br>
         <i class="fa-brands fa-tiktok fa-2xl" style="color: #ff0000;"></i>
         <i class="fa-brands fa-facebook fa-beat fa-2xl" style="color: #008efa;"></i>
@@ -51,7 +51,7 @@
         </dl>
     </div>
 </a>
-<div id="login_form">
+<div id="login_form" style="text-align: left;">
     <form action="#" method="get">
         <input type="text" name="login_id" id="login_id" placeholder="아이디">
         <input type="password" name="pwd" id="pwd" placeholder="비밀번호">
@@ -61,8 +61,9 @@
         웹주소 : <input type="url" name="" id="">
         검색어 : <input type="search" name="" id="">
         이메일주소 : <input type="email" name="" id="">
-        체크 박스 : <input type="checkbox" name="" id="">
-        라디오 버튼 : <input type="radio" name="" id="">
+        체크 박스 : <input type="checkbox" name="" id=""> <input type="checkbox" name="" id=""> <input type="checkbox" name="" id=""> <input type="checkbox" name="" id="">
+        라디오 버튼 : <input type="radio" id="rd"> <input type="radio" id="rd"> <input type="radio" id="rd"> <input type="radio" id="rd">
+        
         파일 첨부 :<input type="file" name="" id="">
         <input type="button" value="나는 버튼입니다." onmouseout="alert('나감');" onclick="alert('버튼이 눌러졌습니다!');">
         <input type="image" src="./src/facebook.png" style="width: 100px;">
@@ -119,7 +120,7 @@
               <option value="중원구">중원구</option>
               <option value="분당구">분당구</option>
             </optgroup>
-          </select>
+          </select><br>
         <!-- <input type="submit" value="로그인하기"> -->
         <button type="submit">
             <img src="./src/facebook.png" alt="페이스북 버튼">
@@ -129,44 +130,44 @@
     </form>
     
 </div>
-<table>
+<!-- <table>
     <tr>
         <th>머리글행</th>
     </tr>
     <tr>
         <td>내용</td>
     </tr>
-</table>
-<table style="border: 1px solid gray; text-align: center;">
-    <tr>
-        <th>번호</th>
-        <th>상품명</th>
-        <th>수량</th>
-        <th>가격</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>콜라</td>
-        <td>1개</td>
-        <td>1500원</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>사이다</td>
-        <td>2개</td>
-        <td rowspan="2">1000원</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>탄산수</td>
-        <td>3개</td>
-    </tr>
-    <tr>
-        <td>합계</td>
-        <td colspan="3">6500원</td>
-    </tr>
-</table>
+</table> -->
 <div style="width:500px; text-align: center;">
+    <table style="border: 1px solid gray; text-align: center;">
+        <tr>
+            <th>번호</th>
+            <th>상품명</th>
+            <th>수량</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td>
+            <td>1500원</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td>
+            <td rowspan="2">1000원</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>3개</td>
+        </tr>
+        <tr>
+            <td>합계</td>
+            <td colspan="3">6500원</td>
+        </tr>
+    </table>
 <table width="500px" border="2" cellspacing="3">
     <caption style="color: #ff0000; font-weight: bold;">제품 주문표</caption>
     <col style="width: 10%;">
@@ -187,20 +188,20 @@
         <td>item</td>
         <td>item</td>
         <td>item</td>
-        <td rowspan="3">dddd</td>
+        <td rowspan="3">item</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>ddd</td>
-        <td>ddd</td>
-        <td>ddd</td>
+        <td>item</td>
+        <td>item</td>
+        <td>item</td>
         
     </tr>
     <tr>
         <td>3</td>
-        <td>ddd</td>
-        <td>ddd</td>
-        <td>ddd</td>
+        <td>item</td>
+        <td>item</td>
+        <td>item</td>
         
     </tr>
     <tr>
@@ -209,7 +210,7 @@
     </tr>
     </tfoot>
 </table>
-<video src="./src/lovewinsall.mp4" controls></video>
+<br><video src="./src/lovewinsall.mp4" controls style="width: 500px;"></video>
 </div>
 </body>
 </html>
